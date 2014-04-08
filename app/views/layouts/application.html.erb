@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Storytellerapp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="/stories">Story of my life</a>
+        <ul class="nav">
+          <li class="active"><a href="/stories/new">New</a></li>
+
+        </ul>
+      </div>
+    </div>
+
+  <Div class="container">
+<%= yield %>
+  </Div>
+
+</body>
+</html>

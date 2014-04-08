@@ -1,0 +1,30 @@
+
+<table class="table-hover">
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+  <% @stories.each do |story| %>
+      <tr>
+        <td><%= story.title %></td>
+        <td><%= story.description %></td>
+      </tr>
+  <% end %>
+</table>
+
+
+
+<table class="table-bordered">
+  <tr>
+    <th>ID</th>
+    <th>User Name</th>
+    <th>User Name</th>
+  </tr>
+  <% @users.each do |user| %>
+      <tr>
+        <td><%= user.id %></td>
+        <td><%= user.name %></td>            <td><%= user.email %></td>
+
+      </tr>
+  <% end %>
+</table>
