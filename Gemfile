@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'will_paginate', '~> 3.0.5'
 
 gem 'protected_attributes'
 gem 'asana', '~> 0.0.6'

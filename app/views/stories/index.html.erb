@@ -10,6 +10,7 @@
         <td><%= story.description %></td>
       </tr>
   <% end %>
+  <%= will_paginate @stories %>
 </table>
 
 
@@ -23,8 +24,10 @@
   <% @users.each do |user| %>
       <tr>
         <td><%= user.id %></td>
-        <td><%= user.name %></td>            <td><%= user.email %></td>
+        <td><%= user.name %></td>
 
       </tr>
   <% end %>
+
+
 </table>
