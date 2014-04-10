@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'devise'
+gem 'railroady'
 gem 'will_paginate', '~> 3.0.5'
 
 gem 'protected_attributes'
