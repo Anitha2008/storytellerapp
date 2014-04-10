@@ -9,8 +9,8 @@ gem 'asana', '~> 0.0.6'
 gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3','1.3.9'
-
+#gem 'sqlite3'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -39,9 +39,14 @@ end
 
 
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'pg'
   gem 'rails_12factor', '0.0.2'
 end
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

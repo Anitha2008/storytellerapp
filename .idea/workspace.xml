@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="2" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="297" selection-end="297" vertical-scroll-proportion="0.22357723" vertical-offset="0" max-vertical-offset="915">
+            <state line="48" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.7357724" vertical-offset="177" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -51,15 +60,6 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="61" column="3" selection-start="3549" selection-end="3549" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="3930">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -113,7 +113,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2385">
+            <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2355">
               <folding />
             </state>
           </provider>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/stories/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -211,24 +212,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storytellerapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storytellerapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,13 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../oauth-examples/ruby/app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="750" />
@@ -661,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2385">
+        <state line="4" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
@@ -763,9 +739,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="297" selection-end="297" vertical-scroll-proportion="0.22357723" vertical-offset="0" max-vertical-offset="915">
+        <state line="48" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.7357724" vertical-offset="177" max-vertical-offset="990">
           <folding />
         </state>
       </provider>

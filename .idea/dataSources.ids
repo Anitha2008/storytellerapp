@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails storytellerapp: development" uuid="34ecd90a-99f2-4e84-8164-84e00aa57e4a">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails storytellerapp: test" uuid="06558ab9-8d63-4509-82b6-3a29181354bb">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails storytellerapp: production" uuid="0ef2aaae-b1d5-4f46-97c8-f8f95b705dac">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

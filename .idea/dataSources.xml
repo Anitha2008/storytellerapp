@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1868201771">
+  <component name="DataSourceManagerImpl" format="xml" hash="2485667872">
     <data-source source="LOCAL" name="Rails storytellerapp: development" uuid="34ecd90a-99f2-4e84-8164-84e00aa57e4a">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails storytellerapp: test" uuid="06558ab9-8d63-4509-82b6-3a29181354bb">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails storytellerapp: production" uuid="0ef2aaae-b1d5-4f46-97c8-f8f95b705dac">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:my_database_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
