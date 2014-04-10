@@ -1,5 +1,5 @@
 Storytellerapp::Application.routes.draw do
-
+  root 'stories#index'
   devise_for :users
  # get "stories/new"
   # The priority is based upon order of creation: first created -> highest priority.
