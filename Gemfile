@@ -9,7 +9,7 @@ gem 'asana', '~> 0.0.6'
 gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3','1.3.9'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
